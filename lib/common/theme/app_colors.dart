@@ -1,0 +1,19 @@
+import 'dart:ui';
+
+class AppColors {
+  AppColors._();
+  // Below line is less efficient by next line because every time it calls
+  // it will create a new instance of color with getter method
+
+  //static Color get primary => const Color(0xff000000);
+
+  static const primary = Color(0xffFC6011);
+  static const secondary = Color(0xffB6B7B7);
+  static const primaryFont = Color(0xff4A4B4D);
+  static const secondaryFont = Color(0xff7C7D7E);
+  static const scaffoldBg = Color(0xff000000);
+  static const white = Color(0xffFFFFFF);
+  static const black = Color(0xff000000);
+  static const light = Color(0xffFFFFFF);
+  static const dark = Color(0xff000000);
+}
