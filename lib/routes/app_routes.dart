@@ -4,7 +4,7 @@ class AppRoutes {
   static const String splashRoute = "/";
   static const String welcomeRoute = "/welcomeScreen";
   static const String loginRoute = "/loginScreen";
-  static const String registrationRoute = "/registrationScreen";
+  static const String registerRoute = "/registerScreen";
   static const String forgetPasswordRoute = "/forgetPasswordScreen";
   static const String otpVerifyRoute = "/otpVerifyScreen";
   static const String newPasswordRoute = "/newPasswordScreen";
