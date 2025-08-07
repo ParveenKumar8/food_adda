@@ -11,6 +11,7 @@ class AppTheme {
     //scaffoldBackgroundColor: AppColors.scaffoldBg,
     primaryColor: AppColors.primary,
     textTheme: AppTextTheme.lightTextTheme,
+
     // inputDecorationTheme: InputDecorationTheme(
     //   fillColor: AppColors.inputFillDark,
     //   filled: true,

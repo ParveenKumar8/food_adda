@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_adda_app/features/auth/presentation/screens/splash_screen.dart';
+import 'package:food_adda_app/features/auth/presentation/screens/welcome_screen.dart';
 import 'package:food_adda_app/routes/app_routes.dart';
 
 class RouteGenerator {
@@ -10,8 +11,8 @@ class RouteGenerator {
     switch (routeSettings.name) {
       case AppRoutes.splashRoute:
         return MaterialPageRoute(builder: (_) => SplashScreen());
-      // case AppRoutes.loginRoute:
-      //   return MaterialPageRoute(builder: (_) => SplashScreen());
+      case AppRoutes.welcomeRoute:
+        return MaterialPageRoute(builder: (_) => WelcomeScreen());
       // Example with arguments
       // case AppRoutes.productDetails:
       //   if (settings.arguments is String) {

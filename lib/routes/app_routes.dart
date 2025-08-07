@@ -2,6 +2,7 @@ class AppRoutes {
   AppRoutes._();
   // Auth Route Section
   static const String splashRoute = "/";
+  static const String welcomeRoute = "/welcomeScreen";
   static const String loginRoute = "/loginScreen";
   static const String registrationRoute = "/registrationScreen";
   static const String forgetPasswordRoute = "/forgetPasswordScreen";
