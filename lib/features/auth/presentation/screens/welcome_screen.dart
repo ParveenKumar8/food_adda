@@ -23,12 +23,12 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
           buildTopBanner(width, height),
           Padding(
             padding: EdgeInsets.symmetric(
-              horizontal: width * 0.20,
+              horizontal: width * 0.15,
               vertical: 20.0,
             ),
             child: Text(
               AppStrings.descWelcomeShort,
-              style: TextStyle(color: AppColors.secondaryFont, fontSize: 13),
+              style: Theme.of(context).textTheme.bodySmall,
               textAlign: TextAlign.center,
             ),
           ),
@@ -53,7 +53,7 @@ Widget buildBottomBanner(double width, BuildContext context) {
           ),
           AppRoundedButton(
             btnText: AppStrings.btnCreateAccount,
-            isDefaultBtn: false,
+            btnType: AppRoundButtonType.secondaryBtn,
             onPressed:
                 () => Navigator.of(context).pushNamed(AppRoutes.registerRoute),
           ),

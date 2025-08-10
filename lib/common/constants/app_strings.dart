@@ -9,14 +9,14 @@ class AppStrings {
 
   // Login Screen
   static const String btnLogin = "Login";
-  static const String descAddDetail = "Add your detail to login";
+  static const String descAddDetail = "Add your details to login";
   static const String inputHintYEmail = "Your Email";
   static const String inputHintPassword = "Password";
   static const String textForgotPassword = "Forgot your password?";
   static const String textLoginWith = "or Login With";
   static const String btnLoginWithFacebook = "Login with Facebook";
   static const String btnLoginWithGoogle = "Login with Google";
-  static const String textDontHaveAccount = "Don/'t have an Account?";
+  static const String textDontHaveAccount = "Don't have an Account?";
 
   // Sign up / Register Screen
   static const String btnSignUp = "Sign Up";
