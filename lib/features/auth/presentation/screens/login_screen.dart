@@ -48,11 +48,13 @@ class _LoginScreenState extends State<LoginScreen> {
                   AppTextField(
                     hint: AppStrings.inputHintYEmail,
                     keyboardType: TextInputType.emailAddress,
+                    controller: emailTextController,
                   ),
 
                   AppTextField(
                     hint: AppStrings.inputHintPassword,
                     obscureText: true,
+                    controller: passwordTextController,
                   ),
                   SizedBox(height: 12.0),
                   AppRoundedButton(

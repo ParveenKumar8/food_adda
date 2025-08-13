@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_adda_app/common/constants/app_img.dart';
 import 'package:food_adda_app/common/constants/app_strings.dart';
-import 'package:food_adda_app/common/theme/app_colors.dart';
 import 'package:food_adda_app/common/widgets/app_rounded_button.dart';
 import 'package:food_adda_app/routes/app_routes.dart';
 

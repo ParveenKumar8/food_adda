@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:food_adda_app/common/theme/app_colors.dart';
 
 class AppBarrTheme {
   AppBarrTheme._();

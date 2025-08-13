@@ -24,6 +24,7 @@ class AppStrings {
   static const String inputHintName = "Name";
   static const String inputHintEmail = "Email";
   static const String inputHintMobile = "Mobile No.";
+  static const String inputHintAddress = "Address";
   static const String inputHintConfirmPassword = "Confirm Password";
   static const String textAlreadyHaveAccount = "Already have an Account?";
 
