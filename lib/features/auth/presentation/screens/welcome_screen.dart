@@ -48,13 +48,17 @@ Widget buildBottomBanner(double width, BuildContext context) {
           AppRoundedButton(
             btnText: AppStrings.btnLogin,
             onPressed:
-                () => Navigator.of(context).pushNamed(AppRoutes.loginRoute),
+                () => Navigator.of(
+                  context,
+                ).pushReplacementNamed(AppRoutes.loginRoute),
           ),
           AppRoundedButton(
             btnText: AppStrings.btnCreateAccount,
             btnType: AppRoundButtonType.secondaryBtn,
             onPressed:
-                () => Navigator.of(context).pushNamed(AppRoutes.registerRoute),
+                () => Navigator.of(
+                  context,
+                ).pushReplacementNamed(AppRoutes.registerRoute),
           ),
         ],
       ),

@@ -4,6 +4,7 @@ import 'package:food_adda_app/common/constants/app_strings.dart';
 import 'package:food_adda_app/common/theme/app_colors.dart';
 import 'package:food_adda_app/common/widgets/app_rounded_button.dart';
 import 'package:food_adda_app/common/widgets/app_text_field.dart';
+import 'package:food_adda_app/routes/app_routes.dart';
 
 class RegisterScreen extends StatefulWidget {
   const RegisterScreen({super.key});
@@ -97,10 +98,9 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       recognizer:
                           TapGestureRecognizer()
                             ..onTap = () {
-                              // Navigator.of(context).pushNamedAndRemoveUntil(
-                              //   AppRoutes.loginRoute,
-                              //   ,
-                              // );
+                              Navigator.of(
+                                context,
+                              ).pushReplacementNamed(AppRoutes.loginRoute);
                             },
                     ),
                   ],

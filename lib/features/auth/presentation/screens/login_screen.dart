@@ -120,7 +120,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             ..onTap = () {
                               Navigator.of(
                                 context,
-                              ).pushNamed(AppRoutes.registerRoute);
+                              ).pushReplacementNamed(AppRoutes.registerRoute);
                             },
                     ),
                   ],

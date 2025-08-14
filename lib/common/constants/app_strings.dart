@@ -33,4 +33,12 @@ class AppStrings {
   static const String descForResetPassword =
       "Please enter your email to receive a link to create a new password via email";
   static const String btnSend = "Send";
+
+  // Verify OTP Screen For Password Reset
+  static const String titleForOTP = "We have sent an OTP to your Mobile";
+  static const String descDetailOTP = "Please check your mobile number ";
+  static const String descDetail2OTP = "continue to reset your password.";
+  static const String btnNext = "Next";
+  static const String textDontReceive = "Don't Receive?";
+  static const String btnClickHere = "Click Here";
 }
