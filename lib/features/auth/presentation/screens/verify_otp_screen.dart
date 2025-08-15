@@ -3,7 +3,7 @@ import 'package:food_adda_app/common/constants/app_strings.dart';
 import 'package:food_adda_app/common/utils/utils.dart';
 import 'package:food_adda_app/common/widgets/app_rounded_button.dart';
 import 'package:food_adda_app/common/widgets/custom_otp_widget.dart';
-import 'package:pinput/pinput.dart';
+import 'package:food_adda_app/routes/app_routes.dart';
 
 class VerifyOtpScreen extends StatelessWidget {
   const VerifyOtpScreen({super.key});
@@ -11,7 +11,6 @@ class VerifyOtpScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
       body: SafeArea(
         child: ListView(
           padding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 30.0),
@@ -38,6 +37,9 @@ class VerifyOtpScreen extends StatelessWidget {
             CustomOtpWidget(
               onCompleted: (pin) {
                 print("Pin is $pin");
+                Navigator.of(
+                  context,
+                ).pushReplacementNamed(AppRoutes.newPasswordRoute);
               },
             ),
             SizedBox(height: 50.0),

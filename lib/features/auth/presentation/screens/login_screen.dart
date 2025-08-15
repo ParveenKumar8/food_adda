@@ -59,7 +59,11 @@ class _LoginScreenState extends State<LoginScreen> {
                   SizedBox(height: 12.0),
                   AppRoundedButton(
                     btnText: AppStrings.btnLogin,
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.of(
+                        context,
+                      ).pushReplacementNamed(AppRoutes.onBoardingRoute);
+                    },
                   ),
                   SizedBox(height: 12.0),
                   Center(

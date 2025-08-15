@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:food_adda_app/features/auth/presentation/screens/forget_password_screen.dart';
 import 'package:food_adda_app/features/auth/presentation/screens/login_screen.dart';
 import 'package:food_adda_app/features/auth/presentation/screens/register_screen.dart';
+import 'package:food_adda_app/features/auth/presentation/screens/set_new_password_screen.dart';
 import 'package:food_adda_app/features/auth/presentation/screens/splash_screen.dart';
 import 'package:food_adda_app/features/auth/presentation/screens/verify_otp_screen.dart';
 import 'package:food_adda_app/features/auth/presentation/screens/welcome_screen.dart';
@@ -25,6 +26,8 @@ class RouteGenerator {
         return MaterialPageRoute(builder: (_) => ForgetPasswordScreen());
       case AppRoutes.otpVerifyRoute:
         return MaterialPageRoute(builder: (_) => VerifyOtpScreen());
+      case AppRoutes.newPasswordRoute:
+        return MaterialPageRoute(builder: (_) => SetNewPasswordScreen());
       // Example with arguments
       // case AppRoutes.productDetails:
       //   if (settings.arguments is String) {

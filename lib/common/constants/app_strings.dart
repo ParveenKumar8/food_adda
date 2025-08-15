@@ -41,4 +41,9 @@ class AppStrings {
   static const String btnNext = "Next";
   static const String textDontReceive = "Don't Receive?";
   static const String btnClickHere = "Click Here";
+
+  // Set New Password Screen
+  static const String inputHintNewPassword = "New Password";
+  static const String descDetailForNewPassword =
+      "Please enter your email to receive a link to create a new password via email.";
 }
