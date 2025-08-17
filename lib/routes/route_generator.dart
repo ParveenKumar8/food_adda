@@ -6,6 +6,7 @@ import 'package:food_adda_app/features/auth/presentation/screens/set_new_passwor
 import 'package:food_adda_app/features/auth/presentation/screens/splash_screen.dart';
 import 'package:food_adda_app/features/auth/presentation/screens/verify_otp_screen.dart';
 import 'package:food_adda_app/features/auth/presentation/screens/welcome_screen.dart';
+import 'package:food_adda_app/features/onboard/presentation/screens/onboard_screen.dart';
 import 'package:food_adda_app/routes/app_routes.dart';
 
 class RouteGenerator {
@@ -28,6 +29,8 @@ class RouteGenerator {
         return MaterialPageRoute(builder: (_) => VerifyOtpScreen());
       case AppRoutes.newPasswordRoute:
         return MaterialPageRoute(builder: (_) => SetNewPasswordScreen());
+      case AppRoutes.onBoardingRoute:
+        return MaterialPageRoute(builder: (_) => OnboardScreen());
       // Example with arguments
       // case AppRoutes.productDetails:
       //   if (settings.arguments is String) {

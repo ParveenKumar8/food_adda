@@ -14,4 +14,9 @@ class AppImage {
   // Icons
   static const String iconFacebook = "$_baseIconPath/facebook.png";
   static const String iconGooglePlus = "$_baseIconPath/google_plus.png";
+
+  //Onboard screen
+  static const String imgOnboard1 = "$_baseImgPath/onboard1.png";
+  static const String imgOnboard2 = "$_baseImgPath/onboard2.png";
+  static const String imgOnboard3 = "$_baseImgPath/onboard3.png";
 }

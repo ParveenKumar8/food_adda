@@ -15,6 +15,7 @@ class AppColors {
   static const inputBg = Color(0xffF2F2F2);
   static const inputStrokeBg = Color(0xff707070);
   static const inputError = Color(0xffFF0000);
+  static const dotBgColor = Color(0xffD6D6D6);
 
   static const facebook = Color(0xff367FC0);
   static const google = Color(0xffDD4B39);

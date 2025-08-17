@@ -46,4 +46,18 @@ class AppStrings {
   static const String inputHintNewPassword = "New Password";
   static const String descDetailForNewPassword =
       "Please enter your email to receive a link to create a new password via email.";
+
+  // Onboard Scren
+  static const String titleOnboard1 = "Find Food You Love";
+  static const String subTitleOnboard1 =
+      "Discover the best foods from over 1,000\nrestaurant and best delivery to your\n doorstep.";
+  static const String titleOnboard2 = "Fast Delivery";
+  static const String subTitleOnboard2 =
+      "Fast food delivery to your home, office\nwherever you are.";
+
+  static const String titleOnboard3 = "Live Tracking";
+  static const String subTitleOnboard3 =
+      "Real time tracking of your food on the app\nonce you placed the order.";
+  static const String btnSkip = "Skip";
+  static const String btnDone = "Done";
 }
